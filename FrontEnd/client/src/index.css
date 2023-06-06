@@ -61,7 +61,21 @@ body {
 .header:hover {
   background-color: rgb(15, 117, 3);
   }
-.dropdown {
+
+  .dropdown {
   position: relative;
   display: inline-block;
+}
+
+.card-favorites {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: stretch;
+  justify-content: space-between;
+  background-color: darkblue;
+  color: white;
+  font-style: italic;
+  font-size: large;
+  align-items: center;
 }

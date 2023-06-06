@@ -1,4 +1,4 @@
-<table class="table is-fullwidth is-striped is-bordered">
+<!-- <table class="table is-fullwidth is-striped is-bordered">
     <thead>
     <tr>
         <th>Nombre</th>
@@ -8,16 +8,16 @@
         <th>Imagen</th>
     </tr>
     </thead>
-    <tbody>
-    <!-- {% for image in images %} -->
+    <tbody> 
+    {% for image in images %}
     <tr>
         <th>{{ image.name }}</th>
-        <!-- {% for ip in image.networks.v4 %} -->
+        {% for ip in image.networks.v4 %}
         <td>{{ image.id }}</td>
         <td>{{ image.origin }}</td>
         <td>{{ image.description }}</td>
         <td>{{ image.url }}</td>
     </tr>
-    <!-- {% endfor %} -->
+    {% endfor %}
     </tbody>
-</table>
+</table> -->

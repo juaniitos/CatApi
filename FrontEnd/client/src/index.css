@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: white;
+  color: black;
+}
+
+.btn {
+  @apply text-base font-medium rounded-lg p-3;
+}
+
+.btn--primary {
+  @apply bg-sky-500 text-white;
+}
+
+.btn--secondary {
+  @apply bg-red-800 text-slate-900;
+  color: white;
+}
+
+.card {
+  max-width: 250px;
+  display: grid;
+  width: auto;
+  grid-template-columns: repeat(3, 250px);
+}
+
+.lineaSeparadora{
+  height:2px;
+  border-width:0;
+  color:gray;
+  background-color:gray;
+}
+
+.botones {
+  display: grid;
+}
+
+.title {
+  display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.header {
+  background-color: rgb(3, 36, 49);
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding:10px;
+    margin-top:20px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.header:hover {
+  background-color: rgb(15, 117, 3);
+  }
+.dropdown {
+  position: relative;
+  display: inline-block;
+}

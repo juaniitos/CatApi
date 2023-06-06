@@ -1,0 +1,23 @@
+<table class="table is-fullwidth is-striped is-bordered">
+    <thead>
+    <tr>
+        <th>Nombre</th>
+        <th>Id</th>
+        <th>Origen</th>
+        <th>Descripción</th>
+        <th>Imagen</th>
+    </tr>
+    </thead>
+    <tbody>
+    <!-- {% for image in images %} -->
+    <tr>
+        <th>{{ image.name }}</th>
+        <!-- {% for ip in image.networks.v4 %} -->
+        <td>{{ image.id }}</td>
+        <td>{{ image.origin }}</td>
+        <td>{{ image.description }}</td>
+        <td>{{ image.url }}</td>
+    </tr>
+    <!-- {% endfor %} -->
+    </tbody>
+</table>
